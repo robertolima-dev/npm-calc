@@ -1,0 +1,19 @@
+{
+  "name": "calc-simple-npm",
+  "version": "1.4.1",
+  "description": "Módulo calculadora simples",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test.js",
+    "prepublishOnly": "npm run test"
+  },
+  "keywords": [
+    "calculator",
+    "sum",
+    "subtraction",
+    "multiplication",
+    "division"
+  ],
+  "author": "Roberto Lima <contato@robertolima.eti.br> (https://robertolima.eti.br)",
+  "license": "MIT"
+}
